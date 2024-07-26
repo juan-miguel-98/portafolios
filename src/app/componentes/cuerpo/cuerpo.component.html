@@ -1,0 +1,38 @@
+<section id="info">
+    <article>
+        <img src="./assets/fotos/miFoto.jpg">
+        <article>
+            <h2>Juan Miguel Garrido Castillero</h2>
+            <h3>Desarrollador de aplicaciones web</h3>
+            <p>
+                ¡Hola! Soy un desarrollador web apasionado con una sólida formación en el desarrollo
+                de aplicaciones web. Durante mi formación y prácticas, he adquirido experiencia
+                y habilidades en tecnologías esenciales para la web moderna.
+            </p>
+        </article>
+    </article>
+</section>
+
+<section id="tecnologias">
+    <h4>Tecnologias que he aprendido durante mi formación</h4>
+    <article>
+            <div *ngFor="let tecnologia of tecnologias">
+                <img [src]="tecnologia.ruta">
+                <p>{{tecnologia.titulo}}</p>
+            </div>
+    </article>
+</section>
+
+<section id="contacto">
+    <h4>Contacto</h4>
+    <article>
+        <a href="https://www.linkedin.com/in/juan-miguel-garrido-castillero-42b465283/">
+            <img src="./assets/fotos/linkedin.png">
+        </a>
+        <p>juanmiguelgc1998@gmail.com</p>
+        <a href="https://github.com/juan-miguel-98">
+            <img src="./assets/fotos/github.png">
+        </a>
+    </article>
+</section>
+
