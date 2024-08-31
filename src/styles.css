@@ -112,6 +112,33 @@ app-proyectos {
     margin: 1%;
 }
 
+#contacto  > section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+#contacto #correo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid rgb(80, 80, 255);
+    border-radius: 15px;
+    padding: 2%;
+}
+
+#contacto #correo label {
+    margin-right: 5px;
+}
+
+#contacto button {
+    background-color: white;
+    border: none;
+}
+
+
 #proyectos {
     text-align: center;
     width: 100%;
@@ -139,16 +166,6 @@ app-proyectos {
     text-decoration: none;
 }
 
-
-/*
-#error {
-    width: 100%;
-    padding: 1%;
-    text-align: center;
-    color: red;
-    min-height: 500px;
-} */
-
 @media screen and (min-width: 1300px) {
     app-root {
         width: 60%;
@@ -161,9 +178,6 @@ app-proyectos {
 }
 
 @media screen and (min-width: 900px) {
-    p {
-        font-size: 2vw;
-    }
 
     #info img {
         width: 30%;
@@ -175,10 +189,6 @@ app-proyectos {
 @media screen and (max-width: 900px) {
     #info img {
         width: 25%;
-    }
-
-    p {
-        font-size: 2vw;
     }
 
 }
@@ -206,8 +216,10 @@ app-proyectos {
         width: 100%;
     }
 
-    p {
-        font-size: 5vw;
+    #contacto img,
+    #tecnologias img {
+    width: 100%;
+    max-width: 50px;
     }
 
 }
