@@ -80,7 +80,7 @@ app-proyectos {
 #info article {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center
 }
 
@@ -94,6 +94,7 @@ app-proyectos {
     width: 25%;
     max-width: 150px;
     max-height: 150px;
+    border-radius: 100%;
 }
 
 #info article article {
