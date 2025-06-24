@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AppComponent } from './app.component';
-import { ErrorComponent } from './pagina/error/error.component';
+import { PaginaPrincipalComponent } from './pagina/pagina-principal/pagina-principal.component';
 
 const routes: Routes = [
-  { path: "/", component: AppComponent, pathMatch: "full" }
+  { path: "", component: PaginaPrincipalComponent, pathMatch: "full" }
+
 ];
 
 @NgModule({

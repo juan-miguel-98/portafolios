@@ -8,6 +8,7 @@ import { InfoComponent } from './pagina/info/info.component';
 import { TecnologiaComponent } from './pagina/tecnologia/tecnologia.component';
 import { ContactoComponent } from './pagina/contacto/contacto.component';
 import { ProyectosComponent } from './pagina/proyectos/proyectos.component';
+import { PaginaPrincipalComponent } from './pagina/pagina-principal/pagina-principal.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ProyectosComponent } from './pagina/proyectos/proyectos.component';
     InfoComponent,
     TecnologiaComponent,
     ContactoComponent,
-    ProyectosComponent  
+    ProyectosComponent,
+    PaginaPrincipalComponent,
   ],
   imports: [
     BrowserModule,

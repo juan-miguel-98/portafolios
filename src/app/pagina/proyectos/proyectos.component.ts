@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProyectosComponent implements OnInit {
 
-  ProyectosTer: any[] = [];
+  ProyectosTer: any[] = ["tienda"];
   ProyectosFut: any[] = [];
 
   constructor() {
