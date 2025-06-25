@@ -10,6 +10,8 @@ import { ContactoComponent } from './pagina/contacto/contacto.component';
 import { ProyectosComponent } from './pagina/proyectos/proyectos.component';
 import { PaginaPrincipalComponent } from './pagina/pagina-principal/pagina-principal.component';
 import { SobreMiComponent } from './pagina/sobre-mi/sobre-mi.component';
+import { CertificadosComponent } from './pagina/certificados/certificados.component';
+import { SaneadorUrlPipe } from './pipe/saneador-url.pipe';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { SobreMiComponent } from './pagina/sobre-mi/sobre-mi.component';
     ProyectosComponent,
     PaginaPrincipalComponent,
     SobreMiComponent,
+    CertificadosComponent,
+    SaneadorUrlPipe,
   ],
   imports: [
     BrowserModule,

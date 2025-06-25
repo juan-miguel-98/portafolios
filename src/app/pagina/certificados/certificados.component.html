@@ -1,0 +1,15 @@
+<section id="certificados">
+    <h3>CERTIFICADOS</h3>
+
+    <section>
+        <a [href]="certificado.ruta | saneadorUrl" class="certificado" *ngFor="let certificado of certificados">
+            <img [src]="certificado.foto | saneadorUrl" alt="">
+            <p>Ver certificado</p>
+        </a>
+
+        <article *ngIf="certificados.length === 0">
+            <h1>No hay certificados disponibles.</h1>
+        </article>
+    </section>
+
+</section>
