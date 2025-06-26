@@ -263,6 +263,10 @@ app-proyectos {
         width: 40%;
     }
 
+    #proyectos article article {
+        width: 40%;
+    }
+
 }
 
 @media screen and (max-width: 650px) {
@@ -297,7 +301,6 @@ app-proyectos {
     }
 
 
-
 }
 
 
@@ -313,5 +316,13 @@ app-proyectos {
             'proyectos proyectos';
     }
 
+
+    #certificados .certificado {
+        width: 90%;
+    }
+
+    #proyectos article article {
+        width:90%;
+    }
 
 }
